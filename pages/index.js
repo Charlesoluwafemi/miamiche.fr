@@ -16,8 +16,8 @@ export default function Home() {
             <Image
               src="/images/Restaurant.jpg" // replace with your image path
               alt="Hero Background"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: 'cover' }}
               quality={100}
             />
           </div>
@@ -78,7 +78,7 @@ export default function Home() {
         alt="Offer for employees"
         width={900}
         height={700}
-        objectFit="cover" // Cover the container while maintaining aspect ratio
+        style={{ objectFit: 'cover' }} // Cover the container while maintaining aspect ratio
         className="rounded-md"
       />
     </div>
@@ -102,7 +102,7 @@ export default function Home() {
           alt="Food 1"
           width={300} // reduced width
           height={200} // reduced height
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
           className="rounded-md"
         />
         <div className="p-4">
@@ -121,7 +121,7 @@ export default function Home() {
           alt="Food 2"
           width={300} // reduced width
           height={200} // reduced height
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
           className="rounded-md"
         />
         <div className="p-4">
@@ -140,7 +140,7 @@ export default function Home() {
           alt="Food 3"
           width={300} // reduced width
           height={200} // reduced height
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
           className="rounded-md"
         />
         <div className="p-4">
@@ -159,7 +159,7 @@ export default function Home() {
           alt="Food 4"
           width={300} // reduced width
           height={200} // reduced height
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
           className="rounded-md"
         />
         <div className="p-4">
@@ -178,7 +178,7 @@ export default function Home() {
           alt="Food 5"
           width={300} // reduced width
           height={200} // reduced height
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
           className="rounded-md"
         />
         <div className="p-4">
@@ -197,7 +197,7 @@ export default function Home() {
           alt="Food 6"
           width={300} // reduced width
           height={200} // reduced height
-          objectFit="cover"
+          style={{ objectFit: 'cover' }}
           className="rounded-md"
         />
         <div className="p-4">
@@ -251,7 +251,7 @@ export default function Home() {
               </div>
               <div className="p-4">
                 <h3 className="text-lg font-semibold mb-4">
-                  I heat it up and it's ready
+                  I heat it up and it&#39;s ready
                 </h3>
                 <p>
                   Eating healthy without constraints is quick! In 3 minutes in
@@ -381,12 +381,14 @@ export default function Home() {
       {/* Testimonial 1 */}
       <div className="bg-white p-6 shadow-lg rounded-lg">
         <p className="text-gray-700 mb-4">
-          "BonRegal has completely transformed my meal prep routine. The flavors are amazing, and the convenience is unmatched."
+        &#34;BonRegal has completely transformed my meal prep routine. The flavors are amazing, and the convenience is unmatched.&#34;
         </p>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/images/man1.jpg" // replace with client photo
             alt="Client 1"
+            width={64}                // set the width of the image
+            height={64} 
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
@@ -399,12 +401,14 @@ export default function Home() {
       {/* Testimonial 2 */}
       <div className="bg-white p-6 shadow-lg rounded-lg">
         <p className="text-gray-700 mb-4">
-          "The quality of the meals and the ease of ordering have made BonRegal my go-to choice for healthy eating."
+        &#34;The quality of the meals and the ease of ordering have made BonRegal my go-to choice for healthy eating.&#34;
         </p>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/images/woman1.jpg" // replace with client photo
             alt="Client 2"
+            width={64}                // set the width of the image
+            height={64} 
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
@@ -417,12 +421,14 @@ export default function Home() {
       {/* Testimonial 3 */}
       <div className="bg-white p-6 shadow-lg rounded-lg">
         <p className="text-gray-700 mb-4">
-          "I love how BonRegal combines taste with health. It's the perfect solution for a busy lifestyle."
+        &#34;I love how BonRegal combines taste with health. It&#39;s the perfect solution for a busy lifestyle.&#39;
         </p>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/images/man2.jpg" // replace with client photo
             alt="Client 3"
+            width={64}                // set the width of the image
+            height={64} 
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
@@ -435,12 +441,14 @@ export default function Home() {
       {/* Testimonial 4 */}
       <div className="bg-white p-6 shadow-lg rounded-lg">
         <p className="text-gray-700 mb-4">
-          "BonRegal offers the best meal prep services I've ever used. The meals are delicious and the service is outstanding."
+        &#34;BonRegal offers the best meal prep services I&#39;ve ever used. The meals are delicious and the service is outstanding.&#34;
         </p>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/images/woman2.jpg" // replace with client photo
             alt="Client 4"
+            width={64}                // set the width of the image
+            height={64} 
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
@@ -453,12 +461,14 @@ export default function Home() {
       {/* Testimonial 5 */}
       <div className="bg-white p-6 shadow-lg rounded-lg">
         <p className="text-gray-700 mb-4">
-          "The variety and quality of the meals have exceeded my expectations. I can't recommend BonRegal enough!"
+        &#34;The variety and quality of the meals have exceeded my expectations. I can&#39;t recommend BonRegal enough!&#34;
         </p>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/images/man3.jpg" // replace with client photo
             alt="Client 5"
+            width={64}                // set the width of the image
+            height={64} 
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
@@ -471,12 +481,14 @@ export default function Home() {
       {/* Testimonial 6 */}
       <div className="bg-white p-6 shadow-lg rounded-lg">
         <p className="text-gray-700 mb-4">
-          "I appreciate how Fresheo caters to my dietary needs while delivering mouthwatering meals."
+        &#39;I appreciate how Fresheo caters to my dietary needs while delivering mouthwatering meals.&#39;
         </p>
         <div className="flex items-center justify-center">
-          <img
+          <Image
             src="/images/woman3.jpg" // replace with client photo
             alt="Client 6"
+            width={64}                // set the width of the image
+            height={64} 
             className="w-16 h-16 rounded-full object-cover mr-4"
           />
           <div>
