@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Image from 'next/image'; // Import Image from Next.js
 
 export default function Blog() {
   const articles = [
@@ -59,10 +60,13 @@ export default function Blog() {
             {articles.map((article, index) => (
               <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
                 <div className="relative">
-                  <img
+                  <Image
                     src={article.image}
                     alt={article.title}
-                    className="w-full h-48 object-cover"
+                    layout="responsive" // Use layout for responsive images
+                    width={500} // Set a suitable width
+                    height={300} // Set a suitable height
+                    className="object-cover"
                   />
                 </div>
                 <div className="p-4">
