@@ -21,7 +21,7 @@ export default function DiscoveryBox() {
         {/* Discovery Box Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-center mb-6">The best way to discover Fresheo</h2>
-          <p className="text-lg text-gray-600 text-center mb-6">Try our tasty and balanced meal boxes, meeting everyone&apos;s needs and desires. 2 boxes to choose from, all composed of 4 dishes &amp; 4 desserts.</p>
+          <p className="text-lg text-gray-600 text-center mb-6">Try our tasty and balanced meal boxes, meeting everyone's needs and desires. 2 boxes to choose from, all composed of 4 dishes &amp; 4 desserts.</p>
           <div className="flex justify-center mb-6">
             <Image src="/images/homepage.png" alt="Arrow" width={50} height={50} />
           </div>
@@ -54,7 +54,7 @@ export default function DiscoveryBox() {
               <p className="text-gray-600 mb-2">Box made by Valentine, dietician and creator of our healthy and delicious recipes.</p>
               <p className="text-lg font-semibold mb-2">Discovery Promo: 4 meals + 4 desserts</p>
               <p className="text-lg font-semibold mb-2">Price: €49.95 (i.e. €7.33 / dish)</p>
-              <p className="text-gray-600">Don't delay! Promo expires in 6 days: 05 hours: 46 minutes: 15 seconds</p>
+              <p className="text-gray-600">Don&apos;t delay! Promo expires in 6 days: 05 hours: 46 minutes: 15 seconds</p>
               <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">I&apos;m hungry, I want to try!</button>
             </div>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden p-4">
@@ -62,7 +62,7 @@ export default function DiscoveryBox() {
               <p className="text-gray-600 mb-2">Box made by Valentine, dietician and creator of our healthy and delicious recipes.</p>
               <p className="text-lg font-semibold mb-2">Discovery Promo: 4 meals + 4 desserts</p>
               <p className="text-lg font-semibold mb-2">Price: €49.95 (i.e. €7.33 / dish)</p>
-              <p className="text-gray-600">Don't delay! Promo expires in 6 days: 05 hours: 46 minutes: 15 seconds</p>
+              <p className="text-gray-600">Don&apos;t delay! Promo expires in 6 days: 05 hours: 46 minutes: 15 seconds</p>
               <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">I&apos;m hungry, I want to try!</button>
             </div>
           </div>
