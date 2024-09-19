@@ -7,41 +7,45 @@ export default function Navbar() {
 
   return (
     <nav className="bg-gray-800 text-white">
-      <div className="container mx-auto p-4 flex items-center justify-between">
-        <div className="flex items-center">
+      <div className="container mx-auto p-4 flex items-center">
+        {/* Logo - Aligned to the Left */}
+        <div className="flex items-center justify-start">
           <Link href="/">
             <span className="text-3xl font-extrabold cursor-pointer text-pink-600">
               BonRegal
             </span>
           </Link>
         </div>
-        <div className="hidden md:flex space-x-4">
+
+        {/* Navigation Links - Centered */}
+        <div className="hidden md:flex space-x-6 mx-auto">
           <Link href="/menu-of-the-week">
-            <span className="hover:text-gray-400 cursor-pointer">Menu of the Week</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">Menu of the Week</span>
           </Link>
           <Link href="/discovery-box">
-            <span className="hover:text-gray-400 cursor-pointer">Discovery Box</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">Discovery Box</span>
           </Link>
           <Link href="/gift-voucher">
-            <span className="hover:text-gray-400 cursor-pointer">Gift Voucher</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">Gift Voucher</span>
           </Link>
           <Link href="/my-customer-area">
-            <span className="hover:text-gray-400 cursor-pointer">My Customer Area</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">My Customer Area</span>
           </Link>
           <Link href="/blog">
-            <span className="hover:text-gray-400 cursor-pointer">Blog</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">Blog</span>
           </Link>
           <Link href="/business">
-            <span className="hover:text-gray-400 cursor-pointer">Business</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">Business</span>
           </Link>
           <Link href="/who-are-we">
-            <span className="hover:text-gray-400 cursor-pointer">Who Are We</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">Who Are We</span>
           </Link>
-          {/* Add Cart Link */}
           <Link href="/cart">
-            <span className="hover:text-gray-400 cursor-pointer">Cart</span>
+            <span className="text-lg font-medium hover:text-gray-400 cursor-pointer">Cart</span>
           </Link>
         </div>
+
+        {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
@@ -52,35 +56,37 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+      
+      {/* Mobile Menu */}
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="bg-gray-700 text-white space-y-2 p-4">
           <Link href="/menu-of-the-week">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Menu of the Week</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Menu of the Week</span>
           </Link>
           <Link href="/discovery-box">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Discovery Box</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Discovery Box</span>
           </Link>
           <Link href="/gift-voucher">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Gift Voucher</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Gift Voucher</span>
           </Link>
           <Link href="/my-customer-area">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>My Customer Area</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>My Customer Area</span>
           </Link>
           <Link href="/blog">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Blog</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Blog</span>
           </Link>
           <Link href="/business">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Business</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Business</span>
           </Link>
           <Link href="/who-are-we">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Who Are We</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Who Are We</span>
           </Link>
-          {/* Add Cart Link */}
           <Link href="/cart">
-            <span className="block hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Cart</span>
+            <span className="block text-lg font-medium hover:text-gray-400 cursor-pointer" onClick={() => setIsOpen(false)}>Cart</span>
           </Link>
         </div>
       </div>
     </nav>
   );
 }
+
