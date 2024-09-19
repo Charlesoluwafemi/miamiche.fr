@@ -33,12 +33,12 @@ export default function DiscoveryBox() {
           <h2 className="text-3xl font-bold text-center mb-6">How does the discovery box work?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="bg-white shadow-lg rounded-lg overflow-hidden text-center p-4">
-              <Image src="/images/gallery01.png" alt="Classic Box" width={300} height={200} objectFit="cover" />
+              <Image src="/images/gallery01.png" alt="Classic Box" width={300} height={200} />
               <h3 className="text-xl font-bold mt-4">Classic Box</h3>
               <p className="text-gray-600 mt-2">2 boxes to choose from: classic and vegetarian. Each box consists of 4 dishes and 4 desserts. We deliver on Saturday, Sunday, Monday, and Tuesday, wherever you want.</p>
             </div>
             <div className="bg-white shadow-lg rounded-lg overflow-hidden text-center p-4">
-              <Image src="/images/gallery02.png" alt="Vegetarian Box" width={300} height={200} objectFit="cover" />
+              <Image src="/images/gallery02.png" alt="Vegetarian Box" width={300} height={200} />
               <h3 className="text-xl font-bold mt-4">Vegetarian Box</h3>
               <p className="text-gray-600 mt-2">Make your choice! Select the desired diet and we’ll take care of the rest! Your meal boxes are delivered to your home or workplace.</p>
             </div>
