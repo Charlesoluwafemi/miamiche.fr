@@ -13,7 +13,7 @@ export default function DiscoveryBox() {
           <div className="absolute inset-0 bg-black opacity-30"></div>
           <div className="relative z-10 p-6">
             <h1 className="text-4xl font-bold text-white mb-4">Make your life easier with our dishes</h1>
-            <p className="text-lg text-white mb-6">Healthy & smart. Discover Fresheo dishes. See the discovery box.</p>
+            <p className="text-lg text-white mb-6">Healthy &amp; smart. Discover Fresheo dishes. See the discovery box.</p>
             <p className="text-lg text-white">Make your organization easier. No need to cook, reheat &amp; enjoy! Don’t waste your time in the kitchen anymore. Eat a balanced diet without having to cook.</p>
           </div>
         </header>
@@ -21,7 +21,7 @@ export default function DiscoveryBox() {
         {/* Discovery Box Section */}
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-center mb-6">The best way to discover Fresheo</h2>
-          <p className="text-lg text-gray-600 text-center mb-6">Try our tasty and balanced meal boxes, meeting everyone's needs and desires. 2 boxes to choose from, all composed of 4 dishes &amp; 4 desserts.</p>
+          <p className="text-lg text-gray-600 text-center mb-6">Try our tasty and balanced meal boxes, meeting everyone&apos;s needs and desires. 2 boxes to choose from, all composed of 4 dishes &amp; 4 desserts.</p>
           <div className="flex justify-center mb-6">
             <Image src="/images/homepage.png" alt="Arrow" width={50} height={50} />
           </div>
@@ -100,7 +100,7 @@ export default function DiscoveryBox() {
           <p className="text-lg text-gray-600 mb-6">They tested and approved Fresheo, an unparalleled culinary experience, combining flavor and practicality.</p>
           <div className="flex justify-center">
             {/* Placeholder for testimonials */}
-            <Image src="/images/man1.png" alt="Testimonial" width={150} height={50} />
+            <Image src="/images/man1.png" alt="Google Analytics" width={150} height={50} />
           </div>
         </section>
       </div>
