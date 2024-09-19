@@ -6,22 +6,22 @@ export default function Blog() {
     {
       title: "Quick balanced meal: How to eat healthy with BonRegal?",
       description: "Are you looking for balanced and quick meals? Fresheo delivers healthy, tasty and ready-to-heat meals directly to your home in Belgium.",
-      image: "/images/article1.png",
+      image: "/images/Article1.png",
     },
     {
       title: "Quick healthy lunch: The solution with BonRegal",
       description: "Discover how a quick healthy lunch with Fresheo can simplify your daily life. Wide choice of healthy meals delivered everywhere in Belgium.",
-      image: "/images/article2.png",
+      image: "/images/Article2.png",
     },
     {
       title: "Healthy and Quick Meals: Time-Saving Tips",
       description: "Discover how Fresheo simplifies your daily life with healthy and quick dishes. Plan your meals, save time and eat balanced effortlessly!",
-      image: "/images/article3.png",
+      image: "/images/Article3.png",
     },
     {
       title: "Don’t feel like cooking? Choose BonRegal!",
       description: "Don’t feel like cooking? Discover how Fresheo helps you with healthy and varied meals, delivered to your home and ready to be reheated in 3 minutes.",
-      image: "/images/article4.png",
+      image: "/images/Article4.png",
     },
     {
       title: "Eating healthy without cooking: How BonRegal can help you",
