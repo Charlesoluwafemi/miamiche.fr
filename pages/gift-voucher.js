@@ -11,7 +11,7 @@ export default function GiftVoucher() {
         {/* Page Header */}
         <header className="mb-12 text-center">
           <h1 className="text-5xl font-bold mb-6">Offer a Gift Voucher</h1>
-          <p className="text-2xl text-gray-600">Choose the amount you'd like to offer or activate a voucher.</p>
+          <p className="text-2xl text-gray-600">Choose the amount you&#39;d like to offer or activate a voucher.</p>
         </header>
 
         <main className="flex flex-col gap-16">
@@ -37,6 +37,7 @@ export default function GiftVoucher() {
                 type="number"
                 placeholder="Enter custom amount"
                 className="p-4 border border-gray-300 rounded-lg text-2xl max-w-xs"
+                aria-label="Custom amount"
               />
             </div>
 
@@ -69,6 +70,8 @@ export default function GiftVoucher() {
                 name="email"
                 placeholder="Your email address"
                 className="p-4 border border-gray-300 rounded-lg w-80 text-2xl"
+                aria-label="Email address"
+                required
               />
               <input
                 type="password"
@@ -76,6 +79,8 @@ export default function GiftVoucher() {
                 name="password"
                 placeholder="Your password"
                 className="p-4 border border-gray-300 rounded-lg w-80 text-2xl"
+                aria-label="Password"
+                required
               />
 
               <button className="px-16 py-4 bg-blue-500 text-white rounded-lg hover:bg-blue-600 text-2xl">
@@ -94,3 +99,4 @@ export default function GiftVoucher() {
     </>
   );
 }
+
