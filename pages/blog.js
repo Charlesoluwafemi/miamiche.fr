@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image'; // Import Image from Next.js
+import Image from 'next/image';
 
 export default function Blog() {
   const articles = [
@@ -63,10 +63,9 @@ export default function Blog() {
                   <Image
                     src={article.image}
                     alt={article.title}
-                    layout="responsive" // Use layout for responsive images
-                    width={500} // Set a suitable width
-                    height={300} // Set a suitable height
-                    className="object-cover"
+                    width={300} // Set appropriate width
+                    height={200} // Set appropriate height
+                    className="w-full h-48 object-cover"
                   />
                 </div>
                 <div className="p-4">
